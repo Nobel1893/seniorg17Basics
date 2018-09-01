@@ -5,6 +5,7 @@
  */
 package Session2;
 
+import Session3.Person;
 import java.util.Scanner;
 
 /**
@@ -16,6 +17,7 @@ public class Functions
 
     public static double HarmonicSum(int n)
     {
+        Person p = new Person();
 
         double res = 0.0;
 
